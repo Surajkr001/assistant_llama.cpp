@@ -1,0 +1,53 @@
+{
+  "llm": {
+    "model_path": "models/llama-2-7b-chat.Q4_K_M.gguf",
+    "n_gpu_layers": 35,
+    "n_ctx": 4096,
+    "temperature": 0.7,
+    "max_tokens": 512,
+    "top_p": 0.95,
+    "repeat_penalty": 1.1,
+    "verbose": false
+  },
+  "tts": {
+    "engine": "pyttsx3",
+    "rate": 175,
+    "volume": 0.9,
+    "voice_id": 0
+  },
+  "stt": {
+    "engine": "whisper",
+    "model": "base",
+    "language": "en",
+    "energy_threshold": 4000,
+    "pause_threshold": 1.0
+  },
+  "web": {
+    "search_engine": "duckduckgo",
+    "max_results": 5,
+    "timeout": 10,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "system": {
+    "allowed_directories": [
+      "C:\\Users\\suraj\\Documents",
+      "C:\\Users\\suraj\\Desktop",
+      "C:\\Users\\suraj\\Downloads"
+    ],
+    "allowed_commands": [
+      "notepad",
+      "calculator",
+      "explorer",
+      "chrome",
+      "firefox"
+    ],
+    "require_confirmation": true
+  },
+  "assistant": {
+    "name": "Jarvis",
+    "wake_word": "jarvis",
+    "mode": "text",
+    "log_conversations": true,
+    "conversation_history_limit": 10
+  }
+}

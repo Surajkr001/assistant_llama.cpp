@@ -1,0 +1,23 @@
+# Core dependencies
+llama-cpp-python>=0.2.0  # LLM inference with GPU support
+requests>=2.31.0  # HTTP requests for web tools
+beautifulsoup4>=4.12.0  # Web scraping
+psutil>=5.9.0  # System information
+
+# Text-to-Speech
+pyttsx3>=2.90  # Offline TTS engine
+
+# Speech-to-Text
+SpeechRecognition>=3.10.0  # Speech recognition wrapper
+pyaudio>=0.2.13  # Audio input/output
+openai-whisper>=20230314  # Whisper STT model (optional, for better accuracy)
+
+# Optional: Enhanced TTS (choose one)
+# TTS>=0.16.0  # Coqui TTS (more natural voices but heavier)
+
+# Optional: CUDA support for llama-cpp-python
+# Install with: CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python --force-reinstall --no-cache-dir
+
+# Development tools
+python-dotenv>=1.0.0  # Environment variables
+colorama>=0.4.6  # Colored terminal output (optional)
