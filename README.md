@@ -26,7 +26,7 @@ A fully local AI assistant powered by llama.cpp, featuring text-to-speech, speec
 ### 1. Clone or Download the Project
 
 ```powershell
-cd C:\Users\suraj\OneDrive\Desktop\model
+https://github.com/Surajkr001/assistant_llama.cpp.git
 ```
 
 ### 2. Create a Virtual Environment
@@ -384,3 +384,4 @@ For issues or questions:
 ---
 
 **Enjoy your personal AI assistant! 🚀**
+
